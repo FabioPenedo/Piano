@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="keys">
+        <div class="key_t">
+            <div class="key">
+                <div data-key="keya" class="n">
+                    <span>"Tecla A"</span>
+                    <span>Dó</span>
+                </div>
+                <div data-key="keyq" class="b">
+                    <span>Dó#<br/>Reb</span>
+                    <span>"Tecla Q"</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keys" class="n">
+                    <span>"Tecla S"</span>
+                    <span>Ré</span>
+                </div>
+                <div data-key="keyw" class="b">
+                    <span>Ré#<br/>Mib</span>
+                    <span>"Tecla W"</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keyd" class="n">
+                    <span>"Tecla D"</span>
+                    <span>Mi</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keyf" class="n">
+                    <span>"Tecla F"</span>
+                    <span>Fá</span>
+                </div>
+                <div data-key="keyr" class="b">
+                    <span>Fá#<br/>Solb</span>
+                    <span>"Tecla R"</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keyg" class="n">
+                    <span>"Tecla G"</span>
+                    <span>Sol</span>
+                </div>
+                <div data-key="keyt" class="b">
+                    <span>Sol#<br/>Láb</span>
+                    <span>"Tecla T"</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keyh" class="n">
+                    <span>"Tecla H"</span>
+                    <span>Lá</span>
+                </div>
+                <div data-key="keyy" class="b">
+                    <span>Lá#<br/>Sib</span>
+                    <span>"Tecla Y"</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keyj" class="n">
+                    <span>"Tecla J"</span>
+                    <span>Si</span>
+                </div>
+            </div>
+            <div class="key">
+                <div data-key="keyk" class="n">
+                    <span>"Tecla K"</span>
+                    <span>Dó</span>
+                </div>
+            </div>
+        </div>
+        <div class="composer">
+            <input type="text" id="input" placeholder="Faça uma composição..." />
+            <button>Tocar</button>
+        </div>
+    </div>
+    <footer>Criado por <a href="">Fábio Penedo</a></footer>
+
+    <audio id="s_keya" src="sounds/do.wav"></audio>
+    <audio id="s_keyq" src="sounds/reb.wav"></audio>
+    <audio id="s_keys" src="sounds/re.wav"></audio>
+    <audio id="s_keyw" src="sounds/mib.wav"></audio>
+    <audio id="s_keyd" src="sounds/mi.wav"></audio>
+    <audio id="s_keyf" src="sounds/fa.wav"></audio>
+    <audio id="s_keyr" src="sounds/solb.wav"></audio>
+    <audio id="s_keyg" src="sounds/sol.wav"></audio>
+    <audio id="s_keyt" src="sounds/lab.wav"></audio>
+    <audio id="s_keyh" src="sounds/la.wav"></audio>
+    <audio id="s_keyy" src="sounds/sib.wav"></audio>
+    <audio id="s_keyj" src="sounds/si.wav"></audio>
+    <audio id="s_keyk" src="sounds/do8.wav"></audio>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
